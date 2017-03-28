@@ -1,15 +1,7 @@
-print ("---------------------------")
-print ("-calcula el area de esfera--")
-print ('-------------------------------')
+def volumen():
+	radio=input("Ingrese el radio")
+	radio=int(radio)
+	volumen = (4/3)*(3.1416*(radio**3))
+	print ("El volumen es: ", volumen)
 
-radio = input('ingrese el radio de la esfera')
-radio=int(radio)
-
-cubo=radio**3
-
-vol=4/3*(3.1416*(radio**3))
-print ("el radio de la esfera es")
-print (vol)
-    
-    
-
+volumen()
